@@ -1,0 +1,3 @@
+sudo mkdir /etc/voice/
+sudo cp -v configs/ticket.key /etc/voice/
+

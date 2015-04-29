@@ -1,0 +1,3 @@
+sudo mv -v configs/others.source.list /etc/apt/sources.list.d/
+sudo apt-get update
+

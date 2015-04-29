@@ -1,0 +1,2 @@
+chmod +x configs/ntpdate
+sudo cp -v configs/ntpdate /etc/cron.hourly/

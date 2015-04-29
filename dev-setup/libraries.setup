@@ -1,0 +1,35 @@
+sudo apt-get install -y tasksel
+sudo tasksel install lamp-server
+sudo apt-get install -y phpmyadmin
+sudo apt-get install -y redis-server
+sudo apt-get install -y ansible
+sudo apt-get install -y vim
+sudo apt-get install -y ctags
+sudo apt-get install -y tree
+sudo apt-get install -y build-essential
+sudo apt-get install -y cmake
+sudo apt-get install -y g++
+sudo apt-get install -y gdb
+sudo apt-get install -y git
+sudo apt-get install -y subversion
+sudo apt-get install -y qt5-qmake
+sudo apt-get install -y qt5-default
+sudo apt-get install -y libboost-system-dev
+sudo apt-get install -y libboost-thread-dev
+sudo apt-get install -y libssl-dev
+sudo apt-get install -y libssl0.9.8
+sudo apt-get install -y libcrypto
+sudo apt-get install -y libcrypto++9
+sudo apt-get install -y libcrypto++-dev
+sudo apt-get install -y libmysqlcppconn-dev
+sudo apt-get install -y libmysqlcppconn7
+sudo apt-get install -y libevent-dev
+sudo apt-get install -y libevent-2.0-5
+sudo apt-get install -y libgtest-dev
+cd /usr/src/gtest
+sudo cmake .
+sudo make
+sudo mv libg* /usr/lib/ -fv
+cd -
+sudo apt-get install -y libconfig++-dev
+sudo apt-get install -y libtinyxml-dev

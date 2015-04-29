@@ -1,0 +1,6 @@
+sudo apt-get install -y rsyslog
+sudo cp -v configs/30-voice.conf /etc/rsyslog.d/
+sudo cp -v configs/logrotate-voice /etc/logrotate.d/
+sudo cp -v configs/rsyslog.conf /etc/rsyslog.conf
+sudo service rsyslog restart
+

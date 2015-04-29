@@ -1,0 +1,10 @@
+TIME=`date +"%Y-%m-%dT%H-%M-%S"`
+echo $TIME
+BACKUP="/etc/hosts.$TIME"
+echo $BACKUP
+sudo cp -v /etc/hosts $BACKUP
+sudo cp -v configs/hosts /etc/hosts
+
+hostname=`cat /etc/hostname`
+echo "127.0.1.1 $hostname" | sudo tee -a /etc/hosts
+

@@ -1,0 +1,145 @@
+/var/log/voice/voserver.log
+{
+        rotate 100
+	copytruncate
+	dateext
+	minsize 1M
+        daily
+        missingok
+        notifempty
+        delaycompress
+        compress
+        postrotate
+                reload rsyslog >/dev/null 2>&1 || true
+        endscript
+}
+
+/var/log/voice/votest.log
+{
+        rotate 100
+        copytruncate
+        dateext
+        minsize 1M
+        daily
+        missingok
+        notifempty
+        delaycompress
+        compress
+        postrotate
+                reload rsyslog >/dev/null 2>&1 || true
+        endscript
+}
+
+/var/log/voice/vorouter.log
+{
+        rotate 100
+        copytruncate
+        dateext
+        minsize 1M
+        daily
+        missingok
+        notifempty
+        delaycompress
+        compress
+        postrotate
+                reload rsyslog >/dev/null 2>&1 || true
+        endscript
+}
+
+/var/log/voice/voc.log
+{
+    rotate 100
+	copytruncate
+	dateext
+	minsize 1M
+    daily
+    missingok
+    notifempty
+    delaycompress
+    compress
+    postrotate
+        reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}
+
+/var/log/voice/voqa.log
+{
+        rotate 100
+        copytruncate
+        dateext
+        minsize 1M
+        daily
+        missingok
+        notifempty
+        delaycompress
+        compress
+        postrotate
+                reload rsyslog >/dev/null 2>&1 || true
+        endscript
+}
+
+/var/log/voice/vom.log
+{
+    rotate 100
+	copytruncate
+	dateext
+	minsize 1M
+    daily
+    missingok
+    notifempty
+    delaycompress
+    compress
+    postrotate
+        reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}
+
+/var/log/voice/voo.log
+{
+    rotate 100
+	copytruncate
+	dateext
+	minsize 1M
+    daily
+    missingok
+    notifempty
+    delaycompress
+    compress
+    postrotate
+        reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}
+
+/var/log/voice/vobackbone.log
+{
+    rotate 100
+	copytruncate
+	dateext
+	minsize 1M
+    daily
+    missingok
+    notifempty
+    delaycompress
+    compress
+    postrotate
+        reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}
+
+/var/log/voice/vocs.log
+{
+    rotate 100
+	copytruncate
+	dateext
+	minsize 1M
+    daily
+    missingok
+    notifempty
+    delaycompress
+    compress
+    postrotate
+        reload rsyslog >/dev/null 2>&1 || true
+    endscript
+}
+
+

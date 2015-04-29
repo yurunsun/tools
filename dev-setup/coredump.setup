@@ -1,0 +1,6 @@
+sudo sed "s/enabled=1/enabled=0/" -i /etc/default/apport
+grep enabled /etc/default/apport
+sudo cp -v configs/limits.conf /etc/security/limits.conf
+sudo cp -v configs/30-core-pattern.conf /etc/sysctl.d/
+sudo service procps start
+

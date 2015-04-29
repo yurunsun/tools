@@ -1,0 +1,8 @@
+sh apt.source.setup
+sh coredump.setup
+sh dns.setup
+sh hosts.setup
+sh libraries.setup
+sh log.setup
+sh ntpdate.setup
+sh voice.setup

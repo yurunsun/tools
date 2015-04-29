@@ -1,0 +1,3 @@
+echo 'nameserver 8.8.8.8' | sudo tee /etc/resolvconf/resolv.conf.d/base
+sudo service resolvconf restart
+cat /etc/resolv.conf
